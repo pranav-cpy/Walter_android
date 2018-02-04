@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="Reminders"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:background="#00868b"
+        android:textSize="53sp"
+        android:paddingBottom="1dp"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#fa8072"
+            android:dividerHeight="2dp"
+            android:layout_margin="9dp"
+            android:id="@+id/listview"
+            android:layout_weight="0.07" />
+    </LinearLayout>
+</RelativeLayout>

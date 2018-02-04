@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+        <TextView
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="Help"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:background="#00868b"
+        android:textSize="56sp"
+        android:paddingBottom="1dp"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/voice"
+            android:scaleType="fitCenter"
+            android:padding="8dp"
+            android:onClick="talkfn"
+            android:background="#00808b"
+            android:paddingRight="12dp"
+            android:id="@+id/voicebtn" />
+
+</LinearLayout>
+     <TextView
+
+         android:layout_width="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:textAlignment="gravity"
+         android:layout_height="430dp"
+         android:layout_marginTop="15dp"
+         android:text="Walter is a highly intelligent library assistant that can guide you through the world of books,information and knowledge.Cut all the unnecessary travels to your library and  be happy, everything is available at your finger tips.Get notified about the books,renew books without going to the library and ofcourse dont miss any book returns.Walter provides a natural language UI.Ask anything you want, we are here to help"
+         android:textColor="#000000"
+         android:scrollbars="vertical"
+         android:textSize="25sp"
+         android:padding="20dp"
+         android:gravity="center_horizontal"
+         android:layout_weight="0.66"
+         android:id="@+id/text11" />
+
+    </LinearLayout>
+
+</RelativeLayout>

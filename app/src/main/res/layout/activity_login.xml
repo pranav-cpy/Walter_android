@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:layout_width="330dp"
+        android:layout_height="380dp"
+        android:src="@drawable/walter1"
+        android:layout_gravity="center"
+        android:paddingTop="30dp"
+        android:paddingBottom="10dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="345dp"
+        android:layout_height="58dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="#ffffff"
+        android:textSize="25sp"
+        android:gravity="center_vertical"
+        android:textColorHint="#00808b"
+        android:drawablePadding="10dp"
+        android:paddingLeft="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="barcode value"
+        android:layout_weight="0.19"
+        android:id="@+id/txt" />
+        //android:layout_alignTop="@+id/imageButton2" />
+
+
+
+
+    <ImageButton
+        android:layout_width="73dp"
+        android:gravity="center"
+        android:paddingTop="7dp"
+        android:paddingRight="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/scan"
+        android:paddingLeft="10dp"
+        android:background="#ffffff"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingBottom="5.5dp"
+        android:scaleType="fitCenter"
+        android:onClick="barcode"
+        android:layout_gravity="left"
+        app:srcCompat="@drawable/scan"
+        android:id="@+id/imagebutton1" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:layout_margin="8dp"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:id="@+id/button_login"
+        android:textSize="27sp"
+        android:layout_marginLeft="20dp"
+        android:padding="12dp"
+        android:layout_marginRight="20dp" />
+
+</LinearLayout>

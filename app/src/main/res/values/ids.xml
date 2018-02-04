@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="hour" type="id" />
+    <item name="minute" type="id" />
+    <item name="session" type="id" />
+</resources>
